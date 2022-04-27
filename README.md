@@ -22,7 +22,7 @@
     iptables -I INPUT -p tcp --dport 10000 -j ACCEPT
     service iptables save
 
-Доступ к Webmin http://127.0.0.1:10000
+Доступ к Webmin https://127.0.0.1:10000
 
 user: root  
 pass: root
